@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #fff;
+}
+
+.main {
+  width: 100%;
+  min-width: 320px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5em;
+  font-weight: bold;
+
+  /*Gradient text*/
+  background: linear-gradient(
+    90deg,
+    rgba(165, 254, 203, 1) 0%,
+    rgba(32, 189, 255, 1) 50%,
+    rgba(84, 51, 255, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
